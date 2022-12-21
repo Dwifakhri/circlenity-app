@@ -1,0 +1,19 @@
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
+import Post from "../pages/Post";
+import User from "../pages/User";
+
+const index = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/post" element={<Post />}></Route>
+        <Route path="/user" element={<User />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default index;
