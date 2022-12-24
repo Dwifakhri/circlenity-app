@@ -7,3 +7,21 @@ body {
   font-family: "poppins";
   box-sizing: border-box;
 }
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.pagination .page-num {
+  padding: 5px;
+}
+.pagination .page-num:hover {
+  background-color: rgba(56, 170, 234, 1);
+}
+.pagination .active {
+  background-color: rgba(56, 170, 234, 1);
+}
