@@ -63,5 +63,5 @@ You may also see any lint errors in the console.
 
 ## Deployment
 Go to the link to launch the app
-https://movies21-five.vercel.app/
+https://circlenity-app.vercel.app/
 
