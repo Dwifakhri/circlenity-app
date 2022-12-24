@@ -4,8 +4,10 @@ import Button from "../components/Button";
 import Input from "../components/Input";
 import { apiRequest } from "../utils/apiRequest";
 import Notification from "../components/Notification";
+import { useTitle } from "../utils/useTitle";
 
 const Post = () => {
+  useTitle("Circlenity - Posts");
   const [titlex, setTitlex] = useState("");
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);

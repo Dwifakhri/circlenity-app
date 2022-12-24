@@ -5,8 +5,10 @@ import Card from "../components/Card";
 import { apiRequest } from "../utils/apiRequest";
 import ReactPaginate from "react-paginate";
 import "../styles/index.css";
+import { useTitle } from "../utils/useTitle";
 
 const Home = () => {
+  useTitle("Circlenity - Home");
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentpage] = useState(0);
